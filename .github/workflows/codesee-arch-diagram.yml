@@ -10,6 +10,6 @@ jobs:
         uses: actions/checkout@v2
       - name: run
         id: run
-        uses: Codesee-io/codesee-map-action@v0
+        uses: Codesee-io/codesee-map-action@main
         with:
           api_token: ${{ secrets.CODESEE_ARCH_DIAG_API_TOKEN }}

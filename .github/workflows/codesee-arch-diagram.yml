@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v2
       - name: run
         id: run
-        run: echo I am running yet again.
+        uses: Codesee-io/codesee-map-action@main

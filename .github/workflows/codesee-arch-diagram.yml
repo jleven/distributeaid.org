@@ -11,3 +11,5 @@ jobs:
       - name: run
         id: run
         uses: Codesee-io/codesee-map-action@main
+        with:
+          api_token: ${{ secrets.CODESEE_ARCH_DIAG_API_TOKEN }}
